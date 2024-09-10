@@ -3,10 +3,7 @@ import { Container, Heading, Table, Tr, Td, Th, Tbody, Thead, Spinner, FormContr
 import { useFormik } from "formik";
 import { useState } from "react";
 import DeleteButton from "@/components/DeleteButton";
-import { UseFetchProducts } from "@/features/product/useFetchProducts";
-import { useCreateProduct } from "@/features/product/useCreateProduct";
-import { useDeleteProduct } from "@/features/product/useDeleteProduct";
-import { useEditProduct } from "@/features/product/useEditProduct";
+import { useCreateProduct, useDeleteProduct, useEditProduct, UseFetchProducts } from "@/features/product";
 
 export default function Home() {
   const toast = useToast();
